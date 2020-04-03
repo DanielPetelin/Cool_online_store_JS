@@ -1,4 +1,4 @@
-var goods = {
+let goods = {
     "100" : {
         "name" : "Телевизор LG 49UM7090PLA",
         "cost" : 29990,
@@ -29,7 +29,7 @@ var goods = {
 };
 
 // console.log(goods);
-var out = '';
+let out = '';
 
 out += '<div class="pricing-table row">'
 for (let key in goods) {
