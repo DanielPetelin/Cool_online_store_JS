@@ -22,7 +22,7 @@ var goods = {
     }
 };
 
-console.log(goods);
+// console.log(goods);
 var out = '';
 
 out += '<div class="pricing-table row">'
