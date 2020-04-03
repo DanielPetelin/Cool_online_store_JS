@@ -25,6 +25,14 @@ let goods = {
         "country" : "Россия",
         "town" : 'Москва',
         "sklad" : "Да"
+    },
+    "103" : {
+        "name" : "Аналоговый синтезатор Moog One 16",
+        "cost" : 663720,
+        "img" : "./images/Mongo.jpg",
+        "country" : "США",
+        "town" : 'Вашингтон',
+        "sklad" : "Да"
     }
 };
 
