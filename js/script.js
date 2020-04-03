@@ -3,6 +3,7 @@ var goods = {
         "name" : "Телевизор LG 49UM7090PLA",
         "cost" : 29990,
         "img" : "./images/download.jpg",
+        "diagonal" : "49",
         "country" : "Россия",
         "town" : 'Таганрог',
         "sklad" : "Да"
@@ -11,6 +12,7 @@ var goods = {
         "name" : "Телевизор Samsung UE55RU7200U",
         "cost" : 49590,
         "img" : "./images/samsung.jpg",
+        "diagonal" : "55",
         "country" : "Россия",
         "town" : 'Москва',
         "sklad" : "Да"
@@ -19,6 +21,7 @@ var goods = {
         "name" : "Телевизор Samsung UE32N5300AU",
         "cost" : 18990,
         "img" : "./images/comp.jpg",
+        "diagonal" : "37",
         "country" : "Россия",
         "town" : 'Москва',
         "sklad" : "Да"
@@ -42,6 +45,7 @@ for (let key in goods) {
     out += '<li>' + 'Страна: ' + goods[key].country + '<br>';
     out += '<li>' + 'Город: ' + goods[key].town + '<br>';
     out += '<li>' + 'Наличие: ' + goods[key].sklad + '<br>';
+    out += '<li>' + 'Диагональ: ' + goods[key].diagonal + ' "' + '<br>';
     out += '</ul>'
     out += '<hr>'
     out += '<button class="button-primary">Купить</button>'
